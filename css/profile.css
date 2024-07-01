@@ -1,0 +1,104 @@
+.profile-container{
+    width: 400px;
+    height: 500px;
+    background-color:white;
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+   
+  
+
+}
+
+
+
+
+
+
+.profile-top{
+    display: flex;
+    justify-content:center ;
+    gap: 1.5rem;
+    margin: 0;
+
+
+}
+.top-left img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.top-right{
+    border: 1px, solid;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+    background-color: white;
+    width: 250px;
+    height: 90px;
+    border-radius: .5rem;
+}
+.top-right p{
+    margin: 0;
+    font-size: .7rem;
+
+}
+.Name{
+margin: 0;
+
+}
+.Name p{
+margin: 0;
+font-size: .8rem;
+
+}
+.input-box{
+    width: 22rem;
+    height: 1.7rem;
+    border-radius: 5px;
+    background-color: white;
+    border: 1.7px solid gray;
+  
+
+
+}
+.profile-buttom{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+.one{
+    padding: .4rem .4rem;
+    width: 175px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-size: .8rem;
+    border: transparent;
+   
+}
+.last{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.6rem ;
+
+    gap: .6rem;
+}
+#two{
+    background-color: white;
+    color: blue;
+    padding: .4rem .4rem;
+    width: 175px;
+    border-radius: 5px solid ;
+    font-size: .8rem;
+    border-color: blue;
+    border: 2px solid;
+
+  
+}
